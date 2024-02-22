@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Mon Nov 13 16:20:25 2023
+# Process ID: 722841
+# Current directory: /media/alinx/nvme4t/yang/course_s3_tcl/ax7z100/01_led_control/vivado/led_control/led_control.runs/design_1_clk_wiz_0_0_synth_1
+# Command line: vivado -log design_1_clk_wiz_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_clk_wiz_0_0.tcl
+# Log file: /media/alinx/nvme4t/yang/course_s3_tcl/ax7z100/01_led_control/vivado/led_control/led_control.runs/design_1_clk_wiz_0_0_synth_1/design_1_clk_wiz_0_0.vds
+# Journal file: /media/alinx/nvme4t/yang/course_s3_tcl/ax7z100/01_led_control/vivado/led_control/led_control.runs/design_1_clk_wiz_0_0_synth_1/vivado.jou
+# Running On: alinx-System-Product-Name, OS: Linux, CPU Frequency: 2893.953 MHz, CPU Physical cores: 32, Host memory: 134224 MB
+#-----------------------------------------------------------
+source design_1_clk_wiz_0_0.tcl -notrace

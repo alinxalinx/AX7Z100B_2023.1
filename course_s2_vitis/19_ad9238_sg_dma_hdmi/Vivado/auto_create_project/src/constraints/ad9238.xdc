@@ -1,0 +1,38 @@
+set_property PACKAGE_PIN AC13 [get_ports  adc_ch1_clk]
+set_property PACKAGE_PIN AC14 [get_ports {adc_ch1_data[0]}]
+set_property PACKAGE_PIN AB12 [get_ports {adc_ch1_data[1]}]
+set_property PACKAGE_PIN AC12 [get_ports {adc_ch1_data[2]}]
+set_property PACKAGE_PIN AE12 [get_ports {adc_ch1_data[3]}]
+set_property PACKAGE_PIN AF12 [get_ports {adc_ch1_data[4]}]
+set_property PACKAGE_PIN AD13 [get_ports {adc_ch1_data[5]}]
+set_property PACKAGE_PIN AD14 [get_ports {adc_ch1_data[6]}]
+set_property PACKAGE_PIN AG12 [get_ports {adc_ch1_data[7]}]
+set_property PACKAGE_PIN AH12 [get_ports {adc_ch1_data[8]}]
+set_property PACKAGE_PIN AE13 [get_ports {adc_ch1_data[9]}]
+set_property PACKAGE_PIN AF13 [get_ports {adc_ch1_data[10]}]
+set_property PACKAGE_PIN AH13 [get_ports {adc_ch1_data[11]}]
+
+
+set_property PACKAGE_PIN AA14 [get_ports  adc_ch0_clk]
+set_property PACKAGE_PIN AK12 [get_ports {adc_ch0_data[1]}]
+set_property PACKAGE_PIN AK13 [get_ports {adc_ch0_data[0]}]
+set_property PACKAGE_PIN AB14 [get_ports {adc_ch0_data[3]}]
+set_property PACKAGE_PIN AB15 [get_ports {adc_ch0_data[2]}]
+set_property PACKAGE_PIN AF15 [get_ports {adc_ch0_data[5]}]
+set_property PACKAGE_PIN AG15 [get_ports {adc_ch0_data[4]}]
+set_property PACKAGE_PIN AG14 [get_ports {adc_ch0_data[7]}]
+set_property PACKAGE_PIN AF14 [get_ports {adc_ch0_data[6]}]
+set_property PACKAGE_PIN AD15 [get_ports {adc_ch0_data[9]}]
+set_property PACKAGE_PIN AD16 [get_ports {adc_ch0_data[8]}]
+set_property PACKAGE_PIN AC16 [get_ports {adc_ch0_data[11]}]
+set_property PACKAGE_PIN AC17 [get_ports {adc_ch0_data[10]}]
+
+
+
+set_property IOSTANDARD LVCMOS33 [get_ports adc_ch0_clk]
+set_property IOSTANDARD LVCMOS33 [get_ports {adc_ch0_data[*]}]
+set_property IOSTANDARD LVCMOS33 [get_ports adc_ch1_clk]
+set_property IOSTANDARD LVCMOS33 [get_ports {adc_ch1_data[*]}]
+
+set_property IOB true [get_ports adc_ch1_data[*]]
+set_property IOB true [get_ports adc_ch0_data[*]]
