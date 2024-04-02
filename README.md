@@ -35,6 +35,10 @@ HDMI output interface, 1 UART serial interface, 1 SD card interface, 1 40-pin ex
 
  Note: You can switch between Chinese and English languages at the footer at the end of the document
 
+## Operating environment
+* Vivado/Vitis 2023.1 software installation[download page](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vitis/2023-1.html)
+* Petalinux 2023.1 software installation[download page](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-design-tools/2023-1.html)
+
 # AX7Z100B routine
 ## Routine description
 This project is the factory routine of the development board and supports most peripherals on the board.

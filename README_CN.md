@@ -36,6 +36,10 @@ https://ax7z100b-20231-v101.readthedocs.io/zh-cn/latest/7Z100B_S1_RSTdocument_CN
 
  注意：文档的末尾页脚处可以切换中英文语言
 
+## 运行环境
+* Vivado/Vitis 2023.1 软件安装[下载页面](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vitis/2023-1.html)
+* Petalinux 2023.1 软件安装 [下载页面](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-design-tools/2023-1.html)
+
 # AX7Z100B 例程
 ## 例程描述
 此项目为开发板出厂例程，支持板卡上的大部分外设。
